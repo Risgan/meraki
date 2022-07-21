@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.google.com/share?selection.family=DM%20Sans:wght@400;500;700%7CInter:wght@300;500');
+
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.products--grid{
+    app-img{
+        img{
+            border-radius: 10px;
+        }
+    }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
