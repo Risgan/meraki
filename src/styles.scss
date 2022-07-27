@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.google.com/share?selection.family=DM%20Sans:wght@400;500;700%7CInter:wght@300;500');
-
+@import 'swiper/css/bundle';
 
 *{
     font-family: 'DM Sans', sans-serif;
 }
+// @import url(("https://fonts.google.com/share?selection.family=DM%20Sans:wght@400;500;700%7CInter:wght@300;500"));
 
 .products--grid{
     app-img{
