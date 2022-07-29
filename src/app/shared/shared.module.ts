@@ -1,7 +1,7 @@
-import { PrimengModule } from './primeng.module';
-import { BoostrapModule } from './boostrap.module';
-import { MaterialUiModule } from './material-ui.module';
-import { MaterialModule } from './material.module';
+import { PrimengModule } from './modules/primeng.module';
+import { BoostrapModule } from './modules/boostrap.module';
+import { MaterialUiModule } from './modules/material-ui.module';
+import { MaterialModule } from './modules/material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 

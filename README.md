@@ -45,6 +45,22 @@ Instalar mi proyecto con npm
 ```
 
 ```bash
+  npm install @mui/material @emotion/react @emotion/styled 
+```
+
+```bash
+  ng add @angular/material 
+```
+
+```bash
+  ng 
+```
+
+```bash
+  ng 
+```
+
+```bash
   ng 
 ```
 
