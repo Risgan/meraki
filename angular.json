@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "meraki:build:production",
+            "firebaseProject": "meraki-2448c",
+            "firebaseHostingSite": "meraki-2448c"
+          }
         }
       }
     }

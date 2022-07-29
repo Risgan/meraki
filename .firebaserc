@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "meraki-2448c": {
+      "hosting": {
+        "meraki": [
+          "meraki-2448c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "meraki-2448c"
+  }
+}
