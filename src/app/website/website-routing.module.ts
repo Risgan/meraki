@@ -1,3 +1,6 @@
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { SobreNosotrosComponent } from './pages/sobre-nosotros/sobre-nosotros.component';
+import { CategoriasComponent } from './pages/categorias/categorias.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
@@ -15,6 +18,18 @@ const routes: Routes = [
       {
         path: 'home',
         component: HomeComponent
+      },
+      {
+        path: 'categorias',
+        component: CategoriasComponent
+      },
+      {
+        path: 'sobrenosotros',
+        component: SobreNosotrosComponent
+      },
+      {
+        path: 'contacto',
+        component: ContactoComponent
       },
     ]
   },  

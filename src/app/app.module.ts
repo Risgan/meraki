@@ -15,7 +15,6 @@ import { providePerformance,getPerformance } from '@angular/fire/performance';
 import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -34,8 +33,7 @@ import { SharedModule } from './shared/shared.module';
     providePerformance(() => getPerformance()),
     provideRemoteConfig(() => getRemoteConfig()),
     provideStorage(() => getStorage()),
-    BrowserAnimationsModule,
-    // SharedModule
+    BrowserAnimationsModule
   ],
   providers: [
     ScreenTrackingService,UserTrackingService

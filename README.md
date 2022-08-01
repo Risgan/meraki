@@ -45,19 +45,16 @@ Instalar mi proyecto con npm
 ```
 
 ```bash
-  npm install @mui/material @emotion/react @emotion/styled 
-```
-
-```bash
   ng add @angular/material 
 ```
 
 ```bash
-  ng 
+  npm i bootstrap@5.2.0 
 ```
 
 ```bash
-  ng 
+  npm install primeng --save
+  npm install primeicons --save 
 ```
 
 ```bash
