@@ -2,3 +2,7 @@ app-footer{
     position: absolute;
     bottom: 0px;
 }
+
+::ng-deep .mat-app-background{
+    background: #f5fdff;
+}
